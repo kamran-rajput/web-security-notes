@@ -84,21 +84,6 @@ vulnerability-name/
 
 <br>
 
-## 🔍 XSS — Current Focus
-
-The XSS section is the most complete. It covers:
-
-- **All injection contexts** — HTML, attributes, JavaScript strings, template literals, canonical tags
-- **WAF bypass methodology** — systematic Burp Intruder recon approach
-- **SVG-based bypasses** — animatetransform, animate, custom tags
-- **CSP bypasses** — AngularJS sandbox escapes, dangling markup
-- **Real exploitation** — cookie theft, password capture, CSRF token theft chains
-- **Prevention** — encoding strategies, CSP headers, input validation
-
-→ [Start with XSS Overview](./xss/overview.md)
-
-<br>
-
 ## 🧠 My Testing Methodology
 
 Every vulnerability section follows the same thinking process:
@@ -112,7 +97,7 @@ Every vulnerability section follows the same thinking process:
 6. Document everything                 → including what failed and why
 ```
 
-> XSS is understanding system design — not pasting payloads into tools.
+> Web Application Penetration testing is understanding system design — not pasting payloads into tools.
 
 <br>
 
